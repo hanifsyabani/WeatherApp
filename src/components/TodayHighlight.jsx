@@ -24,16 +24,16 @@ const TodayHighlight = ({ weatherData }) => {
       <h1 className="text-white text-2xl font-bold">Today Highlight</h1>
       <div className="flex justify-center items-center gap-10 mt-4 w-full">
         <div className="bg-white/25 p-4 rounded-md w-1/2">
-          <h4 className="text-white text-mb mb-2">Wind Speed - {windSpeed} Km/h</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Wind Speed - {windSpeed} Km/h</h4>
 
-          <h4 className="text-white text-mb mb-2">Sunrise - {sunriseTime} Am</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Sunrise - {sunriseTime} Am</h4>
 
-          <h4 className="text-white text-mb mb-2">Sunset - {sunsetTime} Pm</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Sunset - {sunsetTime} Pm</h4>
         </div>
         <div className="bg-white/25 p-4 rounded-md w-1/2">
-          <h4 className="text-white text-mb mb-2">Pressure - {pressure}(hpa)</h4>
-          <h4 className="text-white text-mb mb-2">Humidity - {Humidity}(%)</h4>
-          <h4 className="text-white text-mb mb-2">Visibility - {visibility}(Km)</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Pressure - {pressure}(hpa)</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Humidity - {Humidity}(%)</h4>
+          <h4 className="text-black lg:text-white text-mb mb-2">Visibility - {visibility}(Km)</h4>
         </div>
       </div>
       <p className="text-center text-white text-xs mt-24">Created by: <a href="https://www.instagram.com/mhanifs_/">Muhammad Hanif Sya'bani</a></p>

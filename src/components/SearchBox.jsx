@@ -32,7 +32,7 @@ const SearchBox = ({ weatherData, setWeatherData }) => {
   };
 
   return (
-    <div className="w-[30%] bg-white/30 py-9 px-2 rounded-lg shadow-md mt-10 relative">
+    <div className="w-full lg:w-[30%] bg-white/30 py-9 px-2 rounded-lg shadow-md mt-10 relative">
       {console.log(weatherData)}
       {!search && (
         <label htmlFor="search" className="text-sm text-white">

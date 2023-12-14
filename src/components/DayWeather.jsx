@@ -67,8 +67,8 @@ const DayWeather = ({ weatherData }) => {
 
   return (
     <div className="">
-      <h1 className=" text-3xl text-white font-bold">{weather}</h1>
-      <div className="mt-7  flex justify-center items-center gap-7">
+      <h1 className="mt-10 lg:mt-0 text-3xl text-white font-bold">{weather}</h1>
+      <div className="mt-7 flex flex-wrap justify-center items-center gap-7">
         {data.map((item) => (
           <div
             key={item.id}
